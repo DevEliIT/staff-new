@@ -37,6 +37,9 @@ body{
 .font-medium{
     font-weight: 500 !important;
 }
+.font-light{
+    font-weight: 100 !important;
+}
 .text-sm{
     font-size: 12px;
 }
@@ -348,4 +351,25 @@ section.team{
 .contact-btns:hover{
     color: #fff;
     opacity: 0.8;
+}
+
+form .form-control {
+    border: 2px solid #ff6600;
+    margin-bottom: 1em;
+    height: 50px;
+    border-radius: 10px;
+}
+form textarea.form-control{
+    height: 186px;
+}
+
+button.btnSend {
+    width: 7em;
+    background-color: #ff6600;
+    font-weight: 400;
+    border: none;
+}
+.btnSend:hover{
+    background-color: #660099;
+    color: #fff;
 }

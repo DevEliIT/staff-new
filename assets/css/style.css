@@ -319,7 +319,7 @@ section.team{
 .card{
     border: none;
     box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.12);
-    min-height: 320px;
+    /* min-height: 320px; */
 }
 .card-img-top{
     border-radius: 100%;
